@@ -1,18 +1,22 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h2>Home</h2>
+    <div class="text-content">
+      <p>This is a calculator app. It includes a calculator with basic features, such as inputting numbers, decimals, and various operations. It also stores the history of operations made.</p>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'HomeView',
-  components: {
-    HelloWorld
-  }
 }
 </script>
+
+<style scoped>
+.text-content {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+</style>
