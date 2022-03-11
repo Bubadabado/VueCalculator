@@ -46,7 +46,7 @@ div.page-content {
 
 .header {
   background-color: rgb(36, 33, 41);
-  padding: 10px;
+  padding: 6px;
   margin-bottom: 32px;
 }
 
@@ -73,8 +73,10 @@ nav a.router-link-exact-active {
 }
 
 #pageFooter {
-    position: absolute;
-    background-color: white;
+    /* position: absolute; */
+    position: fixed;
+    padding-bottom: 1px;
+    background-color: rgb(211, 208, 216);
     bottom: 0;
     width: 100%;
     text-align: center;
