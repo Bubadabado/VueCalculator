@@ -14,7 +14,7 @@
       </div>
 
       <div id="pageFooter">
-          <p>Created by Adam Robertson. <a href="https://github.com/Bubadabado/styleGenerator">Github Repository</a></p>
+          <p>Created by Adam Robertson. <a href="https://github.com/Bubadabado/VueCalculator">Github Repository</a></p>
       </div>
     </div>
   </div>
